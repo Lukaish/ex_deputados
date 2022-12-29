@@ -1,0 +1,132 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: linear-gradient(to right, rgb(172, 192, 171), rgb(153, 161, 155));
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin-top: 0;
+  padding-top: 24px;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+header{
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(121, 209, 109);
+  text-align: center;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  
+}
+
+.tab button {
+  color: white;
+  background-color: black;
+  float: left;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  position: relative;
+  width: 25%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.tab button:hover {
+  background-color: rgb(169, 243, 150);       
+}
+
+
+.tab button.active {
+  background-color: rgb(29, 231, 29);
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 2px 3px rgb(255, 255, 255);
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /*border: 1px solid #ccc;*/
+  border-top: none;
+}
+
+.btn {
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 9px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+input {
+  width: 500px;
+  height: 28px;
+  border-radius: 8px;
+  border: none;
+}
+
+#pesquisaNome{
+  margin-top: 40px;
+  margin-left: 300px;
+}
+
+#pesquisaSigla{
+  margin-top: 40px;
+  margin-left: 350px;
+}
+
+#pesquisaID{
+  margin-top: 40px;
+  margin-left: 300px;
+}
+
+#pesquisaDespesas{
+  margin-top: 40px;
+  margin-left: 182px;
+}
+
+#exibeInformations{
+  margin-left: -530px;
+  
+}
+
+#divExibir{
+  margin-left: 350px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+table{
+  border: 0;
+}
+
+th, td{
+ padding: 8px;
+ text-align: center;
+ border-bottom: 1px solid rgb(83, 83, 83);
+ 
+}
+tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <div class="titulo">
+        <h1>Portal Transparência</h1>
+    </div>
+</header>
+    
+
+    <div class="tab" >
+        <button class="tablinks" onclick="openCity(event, 'pesquisaNome')">Pesquisar Deputado </button>
+        <button class="tablinks" onclick="openCity(event, 'pesquisaSigla')">Pesquisar Partido</button>
+        <button class="tablinks" onclick="openCity(event, 'pesquisaID')">Pesquisar Membros</button>
+        <button class="tablinks" onclick="openCity(event, 'pesquisaDespesas')">Pesquisar Despesas do Deputado</button>
+    </div>
+
+    <div id="pesquisaNome" class="tabcontent">
+        Nome do Deputado: <input type="text" id="nome_deputado"></input>
+        <button class="btn" id="buscaDeputadoNome">Pesquisar Deputado</button> 
+        <div id="divExibir">
+            <p id='exibeInf'></p> 
+        </div>
+
+    </div>
+
+    <div id="pesquisaSigla" class="tabcontent">
+        Sigla do Partido: <input type="text" id="sigla_part"></input>
+        <button class="btn" id="buscaPartidoSigla">Pesquisar Partido</button>
+        <div id="divExibir">
+            <p id='exibeInform'></p> 
+        </div>
+    </div>
+
+    <div id="pesquisaID" class="tabcontent">
+        Membros Partido(digitar ID): <input type="text" id="id_part"></input>
+        <button  class="btn" id="buscaPartidoID">Pesquisar Partido</button>
+        <div id="divExibir">
+            <p id='exibeInformacoes'></p> 
+        </div>
+    </div>
+
+    <div id="pesquisaDespesas" class="tabcontent">
+        Nome Deputado: <input type="text" id="nomeDespesaDept"></input>
+        <button  class="btn" id="buscaDeptDespesa">Pesquisar Despesas</button>
+        <div id="divExibir">
+            <div id='exibeInformations'></div> 
+        </div>
+    </div>
+
+
+    
+
+    
+
+    <script src="script/script.js"></script>
+</body>
+</html>
+
